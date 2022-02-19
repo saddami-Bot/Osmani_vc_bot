@@ -74,7 +74,7 @@ Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/osmanibots) ...
 @Client.on_message(commandpro(["/start", "/alive"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/dd9ca2b2122dd68ffab0e.png",
+        photo=f"https://telegra.ph/file/1cbf94f1df06596632c7b.jpg",
         caption=f"""Thanks For Adding Me To Ur Chat, For Any Query U Can Join Our Support Groups 🔥♥️""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -90,7 +90,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/92688f2c44a35ba673c23.png",
+        photo=f"https://telegra.ph/file/cb4bac8c80b3f6e0c8c0a.jpg",
         caption=f"""Here Is The Owner home sit-down/rest  And take some Stars ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
