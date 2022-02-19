@@ -35,12 +35,11 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/1311102f6462ca811d67f.jpg",
+        photo=f"https://telegra.ph/file/02e51c229a2867e13c21e.jpg",
         caption=f"""**👋Sᴀʟᴀᴍᴀ' Wᴀxᴀᴀɴ Aʜᴀʏ Osᴍᴀɴɪ Rᴏʙᴏᴛ Bᴏᴛ Hᴇᴇɢᴀɴ ᴀʜ .
   Iɢᴜ Cᴀsᴜᴜᴍ Qᴏʟᴋᴀᴀɢᴀ Sɪ Aᴀɴ Kᴀᴀɢᴀ Cᴀᴀᴡɪʏᴏ Mᴀᴀᴍᴜʟɪᴅᴀ Gʀᴏᴜᴘ ᴋᴀᴀɢᴀ!...
- Cᴀsᴜᴜᴍ Qᴏʟᴋᴀᴀɢᴀ Sɪ Aᴀɴ Kᴀᴀɢᴀ Cᴀᴀᴡɪʏᴏ Mᴀᴀᴍᴜʟɪᴅᴀ Gʀᴏᴜᴘ ᴋᴀᴀɢᴀ!...
-💙  Mᴀɴɢᴇʀ Bᴏᴛ Rᴇᴀʟ  @ribajosmani 😎
-Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/osmanibots) ...
+💙  Mᴀɴᴀɢᴇʀ Bᴏᴛ Rᴇᴀʟ [Rɪʙᴀᴊʀ](t.me/ribajosmani)😎
+Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/osmanibots) .....
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
