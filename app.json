@@ -1,8 +1,8 @@
 {
-    "name": "Osmani Vc Player",
+    "name": "Zeyriye Vc Player",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["Zaid", "Veez Music", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
-    "repository": "https://github.com/searosan/Zaid-Vc-Player",
+    "repository": "https://github.com/saddami-Bot/Zaid-Vc-Player",
   "stack": "container",
     "env": {
         "SESSION_NAME": {
