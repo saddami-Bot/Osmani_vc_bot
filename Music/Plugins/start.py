@@ -35,11 +35,13 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/02e51c229a2867e13c21e.jpg",
-        caption=f"""**👋Sᴀʟᴀᴍᴀ' Wᴀxᴀᴀɴ Aʜᴀʏ Osᴍᴀɴɪ Rᴏʙᴏᴛ Bᴏᴛ Hᴇᴇɢᴀɴ ᴀʜ .
-  Iɢᴜ Cᴀsᴜᴜᴍ Qᴏʟᴋᴀᴀɢᴀ Sɪ Aᴀɴ Kᴀᴀɢᴀ Cᴀᴀᴡɪʏᴏ Mᴀᴀᴍᴜʟɪᴅᴀ Gʀᴏᴜᴘ ᴋᴀᴀɢᴀ!...
-💙  Mᴀɴᴀɢᴇʀ Bᴏᴛ Rᴇᴀʟ [Rɪʙᴀᴊʀ](t.me/ribajosmani)😎
-Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/osmanibots) .....
+        photo=f"https://telegra.ph/file/64f4f2b23e4e81c21f6e0.jpg",
+        caption=f"""**👋Sᴀʟᴀᴍᴀ' Wᴀxᴀᴀɴ Aʜᴀʏ  Bᴏᴛ Hᴇᴇɢᴀɴ ᴀʜ . 
+        Iɢᴜ Cᴀsᴜᴜᴍ Qᴏʟᴋᴀᴀɢᴀ Sɪ Aᴀɴ Kᴀᴀɢᴀ Cᴀᴀᴡɪʏᴏ Mᴀᴀᴍᴜʟɪᴅᴀ Gʀᴏᴜᴘ ᴋᴀᴀɢᴀ!...
+        💙 Mᴀɴᴀɢᴇʀ Bᴏᴛ Rᴇᴀʟ [Rɪʙᴀᴊʀ](t.me/ribajosmani)😎
+        Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/osmanibots) .....
+        
+             ➪ [𝗢𝘄𝗻𝗲𝗿 𝗕𝗼𝘁](t.me/Seyriye) ☜︎︎︎....
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -53,7 +55,7 @@ Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/osmanibots) .....
                         "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/osmanibots"
                     ),
                     InlineKeyboardButton(
-                        "😎 Oᴡɴᴇʀ 😎", url="https://t.me/ribajosmani"
+                        "😎 Oᴡɴᴇʀ 😎", url="https://t.me/Seyriye"
                     )
                 ],
                 [
